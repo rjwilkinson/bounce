@@ -5,7 +5,7 @@
    ========================================================================== */
 
 #welcome{
-   background-image: url(/img/backdrop.png);
+   background-image: url('/img/backdrop.png');
        background-position: 0% 25%;
        background-size: cover;
        background-repeat: no-repeat;
@@ -25,8 +25,9 @@
 .card-items{
   margin-bottom: 30px;
   border-style: none;
-  border-radius: 0;
+  border-radius: 5px;
   min-height: 200px;
+
 }
 
 .nav-link {
@@ -50,11 +51,13 @@
   background-color: rgba(84,165,219,255);
 }
 
+
+
 #item-1-title {
   font-size: 1.5em;
   color: white;
   font-family: monospace;
-  text-transform: uppercase;
+
 }
 
 #item-2{
@@ -65,31 +68,37 @@
   font-size: 1.5em;
   color: rbga(179,179,179,255);
   font-family: monospace;
-  text-transform: uppercase;
 }
 
 
 
 
 
-#item-3{
-  background-color: rgba(51,172,111,255);
+
+#item-3, #item-4 {
+    border: 3px solid lightgrey;
+    border-radius: 10px;
 }
 
-#item-3-title {
-  font-size: 1.5em;
-  color: white;
-  font-family: monospace;
-  text-transform: uppercase;
-}
-
-#item-4{
-  background-color: rgba(160,192,87,255);
-}
-
-#item-4-title {
+#item-3-title, #item-4-title {
   font-size: 1.5em;
   color: rbga(179,179,179,255);
   font-family: monospace;
-  text-transform: uppercase;
+}
+
+#break-section{
+  background-image: url('/img/bg_dots.png');
+  background-repeat: repeat;
+}
+
+#chain-link{
+  display: block;
+  width:25px;
+  height: auto;
+  padding-right:5px;
+  padding-bottom: 2px;
+}
+
+#chain-link:hover{
+  background-image: url('/img/34735.svg');
 }

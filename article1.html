@@ -20,8 +20,10 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/article.css">
-
+        <link rel="stylesheet" href="css/aos.css" />
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="/css/highlight/github-gist.css">
+        <script src="/js/vendor/highlight.pack.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -45,7 +47,7 @@
     </nav>
   -->
 
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-dark">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-dark" id="navigation-bar">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,20 +59,21 @@
             <a class="nav-link" href="/index.html" style="color:white;">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color:white;">Getting Started...</a>
+            <a class="nav-link" href="#getting-started" style="color:white;">Getting Started</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color:white;">Advanced Topics...</a>
+            <a class="nav-link" href="#advanced-topics" style="color:white;">Advanced Topics</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-<div class="container-fluid" id="welcome" style="">
+<div class="container-fluid" id="welcome">
   <div class="text-center" style="padding-top:150px;padding-bottom:150px;">
-    <h2 style="">Adding Pupils to your <strong>BOUNCE</strong> platform</h2>
-    <p class="lead">In this article we describe the methods you can use to add pupils to your platform.</p>
+    <h2 style="" data-aos="slide-left" data-aos-duration="1000">Adding Pupils to your <strong>BOUNCE</strong> platform</h2>
+    <p class="lead" data-aos="slide-right" data-aos-duration="2000">
+      In this article we describe the methods you can use to add pupils to Bounce.</p>
   </div>
 </div>
 
@@ -79,49 +82,63 @@
 <div class="container">
   <div class="row" style="margin-top:50px;">
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-      <div class="list-group" style="margin-top:50px;" id="">
-        <h5 class="" style="padding-left:10px;">Contents <img src="/img/icon-search.png" style="float:right;height:15px;width:auto;padding-right:25px;margin-top:5px;" /></h5>
-        <a href="#" class="list-group-item list-group-item-action article-content-heading" style="">Heading 1</a>
-        <a href="#" class="list-group-item list-group-item-action article-content-heading">Heading 2</a>
-        <a href="#" class="list-group-item list-group-item-action article-content-heading">Heading 3</a>
-        <a href="#" class="list-group-item list-group-item-action article-content-heading">Heading 4</a>
-        <a href="#" class="list-group-item list-group-item-action article-content-heading disabled">Heading 5</a>
+      <div class="list-group" style="margin-top:50px;" data-aos="slide-right" data-aos-duration="2000" id="menu">
+        <h5 id="contents-header" class="" style="padding-left:10px;"><img src="img/clipboard.png" style="width:25px;height:auto" /> Navigation <!--<img src="/img/icon-search.png" style="float:right;height:15px;width:auto;padding-right:25px;margin-top:5px;">--></h5>
+
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 justified">
       <div class="article-content-container">
-        <p>In this article we'll talk you through a couple of ways that you can add pupils to your <strong>BounceTogether</strong> platform. Before you can create surveys
-      , completeing them or view data in the Dashboard about the results, you will need to add pupils to the platform.  Let's get to it...</p>
-
-        <div class="article-content" id="article-content">
-          <h3>Heading 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id ornare risus. Duis felis augue, facilisis at aliquet at, iaculis eget leo.
-            Donec hendrerit nulla metus, quis condimentum nisl accumsan sed.</p>
-          <p>Morbi varius aliquet iaculis. Duis dolor est, tincidunt vitae massa id, luctus cursus lorem. Pellentesque ac vestibulum ligula. Donec pellentesque mollis lectus vitae ullamcorper.
-            Donec ac lacus ultrices, volutpat lacus sit amet, ullamcorper orci.
-            <img src="/img/image-placeholder.png" width="250px;" height="auto;" style="float:right; padding:10px" />
-          </p>
-          <p>Donec elementum orci quis felis lacinia, sed facilisis sapien mollis. Integer ultricies mattis ante et efficitur.
-            Morbi pretium vel metus sed luctus. Etiam aliquet nisi ut ante imperdiet, molestie maximus felis hendrerit.
-            Integer nec commodo tellus, in tempus leo. Mauris est ipsum, lacinia eget arcu non, finibus vulputate nunc.</p>
-          <p>Proin fermentum quam eu lobortis blandit. Curabitur et bibendum lorem, nec pharetra nibh.
-            Quisque quis ultricies augue. Pellentesque id metus elementum mauris vehicula laoreet.
-            Phasellus sit amet congue arcu. Etiam felis risus, aliquet vel pharetra ac, bibendum ac magna.</p>
-        </div>
         <div class="article-content">
-          <h3 id ="heading-2">Heading 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id ornare risus. Duis felis augue, facilisis at aliquet at, iaculis eget leo.
-            Donec hendrerit nulla metus, quis condimentum nisl accumsan sed.</p>
-          <p>Morbi varius aliquet iaculis. Duis dolor est, tincidunt vitae massa id, luctus cursus lorem. Pellentesque ac vestibulum ligula. Donec pellentesque mollis lectus vitae ullamcorper.
-            Donec ac lacus ultrices, volutpat lacus sit amet, ullamcorper orci.
-            <img src="/img/image-placeholder.png" width="125px;" height="auto;" style="float:left; padding:10px;" />
-          </p>
-          <p>Donec elementum orci quis felis lacinia, sed facilisis sapien mollis. Integer ultricies mattis ante et efficitur.
-            Morbi pretium vel metus sed luctus. Etiam aliquet nisi ut ante imperdiet, molestie maximus felis hendrerit.
-            Integer nec commodo tellus, in tempus leo. Mauris est ipsum, lacinia eget arcu non, finibus vulputate nunc.</p>
-          <p>Proin fermentum quam eu lobortis blandit. Curabitur et bibendum lorem, nec pharetra nibh.
-            Quisque quis ultricies augue. Pellentesque id metus elementum mauris vehicula laoreet.
-            Phasellus sit amet congue arcu. Etiam felis risus, aliquet vel pharetra ac, bibendum ac magna.</p>
+          <h3>Introduction</h3>
+          <p>In this article we'll walk you through a couple of ways that you can add pupils to your <strong>BounceTogether</strong> platform. Before you can create surveys
+      , complete them or view data in the Dashboard showing the results, you will need to add pupils to the platform.</p>
+
+          <h3>Automatic Provisioning</h3>
+          <p>The Bounce platform is flexible and enables you to add pupils to your platform in a few different ways. The most convenient way by far is using an automatic tool, provided by either GroupCall or Wonde that automatically provision
+          pupils to the Bounce platform as they are added to your management information system but there are alternatives if your Management System isn't supported (don't worry - it probably is).</p>
+
+          <p>When you ordered Bounce, if you indicated that your management system is one that is supported by the Bounce integrator (Groupcall or Wonde) then we will have automatically started provisioning your account with this provider. This means that a representative from one of these providers
+          will be in contact with you to arrange the installation and can guide you through the remainder of the process. You may have already received the email to initiate this - it will have come from Groupcall.co.uk or Wonde.com so be sure to look out for it.
+        You could opt to install the software yourself but we recommend you speak to your IT contact to decide what the best option is. The team are always here to help if you need us!</p>
+
+          <img src="/img/auth-img.png" width="250px;" height="auto;" style="float:right;" data-aos="flip-right" />
+
+          <h4>Authorisation</h4>
+          <p>Usually, if you are already using one of these providers for other applications in your School (they are the most popular solutions on the market!) then the installation will be quick and simple. In any case, once you have been informed by your Groupcall/Wonde representative that the software has been installed
+          successfully, you will need to authorise the Bounce application for use.</p>
+
+          <p>Authorisation is an important step in the process as it enables you to grant permission for GroupCall/Wonde to send data to Bounce. This allows you to restrict the information that gets distributed to the platform
+          if you wish. We'll recommend a standard set of fields to submit to Bounce but if you want to restrict this then you can do. However, if you choose to do so, functionality in the Bounce app could be limited. For example,
+        should you choose not to send "pupil premium" data, you will not be able to report on that demographic from the Dashboard.</p>
+
+          <h3>Manually Provisioning</h3>
+          <p>If you would prefer to maintain your pupil data in your Bounce platform yourself, you can do this by using a CSV file. If you can prepare a CSV file from your School Management System (e.g. SIMS, Progresso, RM Integris etc) then you
+          you can import this into Bounce straight away.</p>
+          <p>You will need to create a csv file that has (at minimum) the following fields:</p>
+          <pre>
+            <code class="html"><strong>"MSID","Forename","Surname","DateOfBirth","Gender","TutorGroup","YearGroup"</strong><br>"00056789993888","Joe","Bloggs","05/05/1985",,"Male","10Green","10"</code>
+          </pre>
+
+          <p>Once you have prepared the CSV file you are ready to import this onto your platform...</p>
+
+          <h4>Importing the CSV</h4>
+          <p>Start by <a href="">logging into Bounce</a> as an administrative member of staff then follow the instructions below.</p>
+          <ol>
+            <li>This is the next step.</li>
+            <li>and <kbd>another</kbd> step</li>
+            <li>one more...</li>
+            <li>Last step</li>
+          </ol>
+
+          <p>You should now be able to see pupils in your Bounce platform!</p>
+
+
+            <h3>Summary</h3>
+            <p>Once you have prepared.</p>
+            <p>Proin fermentum quam eu lobortis blandit. Curabitur et bibendum lorem, nec pharetra nibh.
+              Quisque quis ultricies augue. Pellentesque id metus elementum mauris vehicula laoreet.
+              Phasellus sit amet congue arcu. Etiam felis risus, aliquet vel pharetra ac, bibendum ac magna.</p>
         </div>
       </div>
       <div class="row" style="margin-top:50px;">
@@ -182,14 +199,9 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/bootstrap.bundle.js"></script>
 
+        <script src="js/vendor/aos.js"></script>
         <script src="js/main.js"></script>
-        <script>
-        $(function(){
-          $(".article-content-heading").each(function( index ) {
-            $arti = $(this.text);
-            console.log($arti);
-          });
-        });
-        </script>
+        <!-- initiaite the Highlight js lib  -->
+        <script>hljs.initHighlightingOnLoad();</script>
     </body>
 </html>
