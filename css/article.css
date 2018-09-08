@@ -1,0 +1,96 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#welcome{
+   background-image: url(/img/article1-background.png);
+       background-position: 0% 25%;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-color:rgba(170,238,255,255);
+       margin-top:-20px
+}
+
+#nav-menu-list{
+}
+
+#nav-block{
+  background-color: lightgreen;
+  width:3px;
+  height: 100%;
+  margin-right: 5px;
+}
+
+.card-items{
+  margin-bottom: 30px;
+  border-style: none;
+  border-radius: 0;
+  min-height: 200px;
+}
+
+.nav-link {
+  color: red;
+}
+
+.card-body{
+  padding-top: 50px;
+}
+
+#card-link{
+  color: inherit;
+}
+
+#card-link:hover{
+  text-decoration: none;
+}
+
+
+#item-1{
+  background-color: rgba(84,165,219,255);
+}
+
+#item-1-title {
+  font-size: 1.5em;
+  color: white;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+#item-2{
+  background-color: rgba(179,179,179,255);
+}
+
+#item-2-title {
+  font-size: 1.5em;
+  color: rbga(179,179,179,255);
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+
+
+
+
+#item-3{
+  background-color: rgba(51,172,111,255);
+}
+
+#item-3-title {
+  font-size: 1.5em;
+  color: white;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+#item-4{
+  background-color: rgba(160,192,87,255);
+}
+
+#item-4-title {
+  font-size: 1.5em;
+  color: rbga(179,179,179,255);
+  font-family: monospace;
+  text-transform: uppercase;
+}
