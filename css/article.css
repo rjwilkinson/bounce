@@ -13,6 +13,16 @@
        margin-top:-20px
 }
 
+
+#welcome-pup{
+   background-image: url(/img/backdrop2.png);
+       background-position: 0% 25%;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-color:rgba(170,238,255,255);
+       margin-top:-20px
+}
+
 #nav-menu-list{
 }
 
@@ -127,4 +137,13 @@
 .sticksman {
   position: fixed;
   top: 75px;
+}
+
+.article-content ol li {
+  padding-bottom: 25px;
+}
+
+.article-content img {
+  padding-top: 0px;
+  padding-bottom: 55px;
 }
