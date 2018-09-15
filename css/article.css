@@ -23,6 +23,15 @@
        margin-top:-20px
 }
 
+#welcome-pup-login{
+  background-image: url(/img/article_images/backdrop3.png);
+      background-position: 0 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top:-20px;
+
+}
+
 #nav-menu-list{
 }
 
