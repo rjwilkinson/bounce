@@ -12,7 +12,40 @@
 
 }
 
-#nav-menu-list{
+#carousel-phone{
+  background-image: url('/img/phone-background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+
+
+
+.carousel-insert{
+  margin-top: 30%;
+  display: block;
+  max-height: auto;
+  width: auto;
+  margin-bottom: -50px;
+}
+
+.custom-carousel-item{
+  margin-top: 25%;
+  padding-left: 20%;
+
+}
+
+@media (max-width: 576px) {
+    #carousel-phone {
+        display: none;
+    }
+    .custom-carousel-item {
+      margin-top: 20%;
+      padding-left: 10%;
+      margin-bottom:20%;
+
+    }
 }
 
 #nav-block{
@@ -102,3 +135,10 @@
 #chain-link:hover{
   background-image: url('/img/34735.svg');
 }
+
+#article-faqs{
+  background-color: rgb(213,255,213,255);
+  color:white;
+}
+
+#footer{background-color: rgba(26,26,26,255);}
