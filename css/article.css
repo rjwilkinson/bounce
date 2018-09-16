@@ -4,33 +4,15 @@
    Author's custom styles
    ========================================================================== */
 
-#welcome{
-   background-image: url(/img/article1-background2.png);
-       background-position: 0% 25%;
-       background-size: cover;
-       background-repeat: no-repeat;
-       background-color:rgba(170,238,255,255);
-       margin-top:-20px
+.article-splash{
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:rgba(170,238,255,255);
+  margin-top:-20px
 }
 
 
-#welcome-pup{
-   background-image: url(/img/article_images/backdrop2.png);
-       background-position: 0% 25%;
-       background-size: cover;
-       background-repeat: no-repeat;
-       background-color:rgba(170,238,255,255);
-       margin-top:-20px
-}
-
-#welcome-pup-login{
-  background-image: url(/img/article_images/backdrop3.png);
-      background-position: 0 25%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin-top:-20px;
-
-}
 
 #nav-menu-list{
 }
