@@ -20,6 +20,47 @@
 }
 
 
+#side-scroller{
+overflow-y: scroll;
+height: calc(100vh - 75px);
+position: fixed;
+border-right: lightgrey solid 1px;
+display: inherit;
+min-width: 17%;
+}
+
+#side-scroller > a {
+  color: rgba(26,26,26,255);
+  font-weight: bold;
+}
+
+.side-scroller-menu-list > a > li{
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 7px;
+  margin-left: 0px;
+}
+
+.side-scroller-menu-list {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.side-scroller-menu-list > a {
+  font-size: 0.9em;
+  color: rgba(128,128,128,255);
+  margin-left: 0px;
+}
+
+.side-scroller-menu-list > a:hover {
+  color: rgba(51,51,51,255);
+  text-decoration: none;
+}
+
+#help-content h2{
+  margin-top: 25px;
+}
+
 
 
 .carousel-insert{
@@ -141,4 +182,6 @@
   color:white;
 }
 
-#footer{background-color: rgba(26,26,26,255);}
+#footer{
+  background-color: rgba(26,26,26,255);
+}
