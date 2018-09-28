@@ -12,6 +12,39 @@
 
 }
 
+.tab-inner{
+  text-align: left;
+  padding: 10px;
+}
+
+.tab-inner >h4 {
+  margin-left: 0px;
+}
+
+.tab-inner-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.tab-inner-list a{
+  color:grey;
+  font-size: 1.2em;
+}
+
+.tab-inner-list a li {
+  margin: 5px;
+}
+
+.tab{
+  padding-bottom:15px;
+  padding-left: 0px;
+}
+
+.tab-inner:hover{
+  background-color: lightgrey;
+  border-left: red solid 4px;
+}
+
 #carousel-phone{
   background-image: url('/img/phone-background.png');
   background-size: 100%;
@@ -118,6 +151,10 @@ min-width: 17%;
 
 #card-link:hover{
   text-decoration: none;
+}
+
+.card-title{
+  color:black;
 }
 
 
