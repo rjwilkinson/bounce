@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="73.444443"
+   height="52.37619"
+   viewBox="0 0 73.444443 52.37619"
+   version="1.1"
+   id="svg4136"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="BounceIcon Only.svg">
+  <metadata
+     id="metadata4171">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Group 4 Copy</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4169"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.7991632"
+     inkscape:cx="173.83288"
+     inkscape:cy="61.452514"
+     inkscape:window-x="1072"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4136" />
+  <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4138">Group 4 Copy</title>
+  <desc
+     id="desc4140">Created with Sketch.</desc>
+  <defs
+     id="defs4142" />
+  <g
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(-128.5,-26.5)"
+     id="Bounce-HP-Copy-4">
+    <g
+       transform="translate(130,28)"
+       id="Group-4-Copy">
+      <g
+         id="Group-2">
+        <path
+           style="stroke:#d1d1d4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="Line"
+           d="m 21,41 c 1.567437,-3.484414 4.932562,-20.498782 6.5,-23.983197 2.765896,-6.148588 6.5,-4.91581 6.5,-4.91581" />
+        <path
+           style="stroke:#d1d1d4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           transform="matrix(-1,0,0,1,83,0)"
+           id="Line-2"
+           d="m 35,42 c 1.567437,-3.484414 4.932563,-20.498782 6.5,-23.983197 2.765896,-6.148588 6.5,-4.91581 6.5,-4.91581" />
+        <path
+           style="stroke:#d1d1d4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="Line-6"
+           d="M 48,42 C 49.085149,39.83726 51.414851,29.276618 52.5,27.113878 54.414851,23.297513 57,24.062685 57,24.062685" />
+        <path
+           style="stroke:#d1d1d4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="Line-5"
+           d="M 66,42 C 64.914851,39.83726 62.585149,29.276618 61.5,27.113878 59.585149,23.297513 57,24.062685 57,24.062685" />
+        <path
+           style="stroke:#d1d1d4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           id="Line-3"
+           d="M 22,42 C 19.829702,37.434216 15.170298,15.139527 13,10.573742 9.170298,2.5169716 4,4.1323352 4,4.1323352" />
+        <path
+           style="fill:#ffffff;stroke:#f1881c;stroke-width:3"
+           inkscape:connector-curvature="0"
+           id="Oval-2"
+           d="M 34.5,16 C 36.432997,16 38,14.432997 38,12.5 38,10.567003 36.432997,9 34.5,9 32.567003,9 31,10.567003 31,12.5 c 0,1.932997 1.567003,3.5 3.5,3.5 z" />
+        <path
+           style="fill:#ffffff;stroke:#ea5198;stroke-width:3"
+           inkscape:connector-curvature="0"
+           id="Oval-7"
+           d="M 3.5,7 C 5.4329966,7 7,5.4329966 7,3.5 7,1.5670034 5.4329966,0 3.5,0 1.5670034,0 0,1.5670034 0,3.5 0,5.4329966 1.5670034,7 3.5,7 Z" />
+        <circle
+           style="fill:#ffffff;stroke:#18a551;stroke-width:3"
+           r="3.5"
+           cy="23.5"
+           cx="57.5"
+           id="Oval-6" />
+        <circle
+           style="fill:#69b1e0"
+           r="5"
+           cy="43"
+           cx="66"
+           id="Oval-5" />
+        <circle
+           style="fill:#e94250"
+           r="5"
+           cy="43"
+           cx="21"
+           id="Oval-4" />
+        <circle
+           style="fill:#fed143"
+           r="5"
+           cy="43"
+           cx="48"
+           id="Oval-3" />
+        <g
+           style="opacity:0.50332324;fill:#efefef"
+           transform="translate(16,49)"
+           id="Rectangle-1-+-Rectangle-2">
+          <rect
+             rx="0.93809521"
+             height="1.8761904"
+             width="10.944445"
+             y="0"
+             x="0"
+             id="Rectangle-1" />
+        </g>
+        <g
+           style="opacity:0.49938666;fill:#efefef"
+           transform="translate(43,49)"
+           id="Rectangle-1-+-Rectangle-3">
+          <rect
+             rx="0.93809521"
+             height="1.8761904"
+             width="10.944445"
+             y="0"
+             x="0"
+             id="rect4164" />
+        </g>
+        <g
+           style="opacity:0.49938666;fill:#f1eeee"
+           transform="translate(61,49)"
+           id="Rectangle-1-+-Rectangle-4">
+          <rect
+             rx="0.93809521"
+             height="1.8761904"
+             width="10.944445"
+             y="0"
+             x="0"
+             id="rect4167" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
