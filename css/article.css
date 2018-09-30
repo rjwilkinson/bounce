@@ -12,7 +12,13 @@
   margin-top:-20px
 }
 
-
+.what-next-card-container{
+  min-height: 230px;
+  border: lightgrey solid 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
 
 #nav-menu-list{
 }
