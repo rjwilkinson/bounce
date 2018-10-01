@@ -12,6 +12,12 @@
 
 }
 
+
+#edoocoo-button:hover{
+  background-color: rgba(75,81,87,255);
+}
+
+
 .getting-started-card{
   background-color: white;
 }
