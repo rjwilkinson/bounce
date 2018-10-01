@@ -1,0 +1,17 @@
+
+@keyframes edoocoo-spin {
+  100% {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes edoocoo-spin {
+  100% {transform: rotate(360deg);}
+}
+
+
+
+#edoocoo-support-logo:hover{
+  -webkit-animation-name: edoocoo-spin; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .75s; /* Safari 4.0 - 8.0 */
+  animation-name: edoocoo-spin;
+  animation-duration: .75s;
+}
