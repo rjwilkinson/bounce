@@ -109,7 +109,7 @@
 }
 
 .article-content img{
-  padding:20px;
+  padding: 20px 0px 20px 40px;
 }
 
 .article-content h3 {
@@ -137,13 +137,18 @@
   top: 75px;
 }
 
+.article-content > ol {
+  padding-left: 5px;
+}
+
 .article-content > ol li {
-  margin-bottom: 25px;
-  padding: 0px 0 0px 40px;
+  margin-bottom: 30px;
+  padding: 0px 0 0px 35px;
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 25px;
     list-style: none;
+    line-height: 2em;
 }
 
 .article-content ol li:nth-of-type(1) {
@@ -192,4 +197,52 @@
 .article-content img {
   padding-top: 0px;
   padding-bottom: 55px;
+}
+
+.hint{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-left: rgba(211,243,211,255) solid 15px;
+}
+
+.hint-collapsible {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.hint-active, .hint-collapsible:hover {
+  background-color: #fff;
+}
+
+.hint-active{
+  outline:none;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.hint-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  outline:none;
+}
+
+.hint-collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 1,2em;
+    color: black;
+    float: right;
+    margin-left: 5px;
+}
+
+.hint-active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }

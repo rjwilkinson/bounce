@@ -43,3 +43,20 @@ $(window).scroll(function() {
 
 // initiate the Animate on Scroll library
 AOS.init();
+
+
+// collapsible menu from a hint
+var coll = document.getElementsByClassName("hint-collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("hint-active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
