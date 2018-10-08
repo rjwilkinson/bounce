@@ -187,6 +187,7 @@ min-width: 17%;
 
 #card-link:hover{
   text-decoration: none;
+  background-color: rgba(242,242,242,255);
 }
 
 .card-title{
@@ -223,7 +224,7 @@ min-width: 17%;
 
 
 #item-3, #item-4 {
-    border: 3px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 10px;
 }
 
