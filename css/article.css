@@ -246,3 +246,15 @@
 .hint-active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+.article-objectives > h4{
+  margin-left: 25px;
+}
+
+.article-objectives {
+  background-color: rgba(215,244,238,255);
+  padding: 15px 5px 15px 5px;
+  border: lightblue solid .5px;
+  line-height: 1.5em;
+  margin: 15px 0px 25px 0px;
+}
