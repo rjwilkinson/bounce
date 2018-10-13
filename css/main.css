@@ -88,12 +88,10 @@
 
 
 #side-scroller{
-overflow-y: scroll;
-height: calc(100vh - 75px);
-position: fixed;
-border-right: lightgrey solid 1px;
-display: inherit;
-min-width: 17%;
+overflow-y: auto;
+max-height: calc(100vh - 4rem);
+position:sticky;
+top: 4rem;
 }
 
 #side-scroller > a {
