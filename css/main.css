@@ -4,6 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
+.resources-link-icon{
+  width: 25px;
+  height: auto;
+}
+
 #welcome{
    background-image: url('/img/backdrop.png');
        background-position: 0% 25%;
