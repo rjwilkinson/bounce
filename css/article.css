@@ -141,7 +141,7 @@
   padding-left: 5px;
 }
 
-.article-content > ol li {
+.article-content > ol li, #help-content > ol > li {
   margin-bottom: 30px;
   padding: 0px 0 0px 35px;
   background-repeat: no-repeat;
@@ -151,46 +151,46 @@
     line-height: 2em;
 }
 
-.article-content ol li:nth-of-type(1) {
+.article-content ol li:nth-of-type(1), #help-content ol li:nth-of-type(1) {
   background-image: url('/img/article_images/list-1.png');}
 
-.article-content ol li:nth-of-type(2) {
+.article-content ol li:nth-of-type(2), #help-content ol li:nth-of-type(2) {
   background-image: url('/img/article_images/list-2.png');}
 
-.article-content ol li:nth-of-type(3) {
+.article-content ol li:nth-of-type(3), #help-content ol li:nth-of-type(3) {
   background-image: url('/img/article_images/list-3.png');}
 
-.article-content ol li:nth-of-type(4) {
+.article-content ol li:nth-of-type(4), #help-content ol li:nth-of-type(4) {
   background-image: url('/img/article_images/list-4.png');}
 
-.article-content ol li:nth-of-type(5) {
+.article-content ol li:nth-of-type(5), #help-content ol li:nth-of-type(5) {
   background-image: url('/img/article_images/list-5.png');}
 
-.article-content ol li:nth-of-type(6) {
+.article-content ol li:nth-of-type(6), #help-content ol li:nth-of-type(6) {
   background-image: url('/img/article_images/list-6.png');}
 
-.article-content ol li:nth-of-type(7) {
+.article-content ol li:nth-of-type(7), #help-content ol li:nth-of-type(7) {
   background-image: url('/img/article_images/list-7.png');}
 
-.article-content ol li:nth-of-type(8) {
+.article-content ol li:nth-of-type(8), #help-content ol li:nth-of-type(8) {
   background-image: url('/img/article_images/list-8.png');}
 
-.article-content ol li:nth-of-type(9) {
+.article-content ol li:nth-of-type(9), #help-content ol li:nth-of-type(9) {
   background-image: url('/img/article_images/list-(9).png');}
 
-.article-content ol li:nth-of-type(10) {
+.article-content ol li:nth-of-type(10), #help-content ol li:nth-of-type(10) {
   background-image: url('/img/article_images/list-10.png');}
 
-.article-content ol li:nth-of-type(11) {
+.article-content ol li:nth-of-type(11), #help-content ol li:nth-of-type(11) {
   background-image: url('/img/article_images/list-(11).png');}
 
-.article-content ol li:nth-of-type(12) {
+.article-content ol li:nth-of-type(12), #help-content ol li:nth-of-type(12) {
   background-image: url('/img/article_images/list-12.png');}
 
-.article-content ol li:nth-of-type(13) {
+.article-content ol li:nth-of-type(13), #help-content ol li:nth-of-type(13) {
   background-image: url('/img/article_images/list-(13).png');}
 
-.article-content ol li:nth-of-type(14) {
+.article-content ol li:nth-of-type(14), #help-content ol li:nth-of-type(14) {
   background-image: url('/img/article_images/list-14.png');}
 
 

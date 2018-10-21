@@ -4,6 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
+.resources-link-icon{
+  width: 25px;
+  height: auto;
+}
+
 #welcome{
    background-image: url('/img/backdrop.png');
        background-position: 0% 25%;
@@ -88,12 +93,10 @@
 
 
 #side-scroller{
-overflow-y: scroll;
-height: calc(100vh - 75px);
-position: fixed;
-border-right: lightgrey solid 1px;
-display: inherit;
-min-width: 17%;
+overflow-y: auto;
+max-height: calc(100vh - 4rem);
+position:sticky;
+top: 4rem;
 }
 
 #side-scroller > a {
