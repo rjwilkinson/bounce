@@ -260,60 +260,6 @@
 
 -->
 
-
-
-
-<!-- F o o t e r  -->
-
-<footer class="footer" id="footer">
-        <div class="row" style="margin-right:0;padding-top:50px;padding-bottom:50px;">
-          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <!-- Deliberately empty -->
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3" style="padding-left:50px;">
-            <h5 style="color:white;">Features</h5>
-            <ul class="list-unstyled text-small center">
-              <li><a class="text-muted" href="#">Initial Features</a></li>
-              <li><a class="text-muted" href="#">Advanced Features</a></li>
-              <li><a class="text-muted" href="#">For Pupils</a></li>
-              <li><a class="text-muted" href="#">Teacher Resources</a></li>
-              <li><a class="text-muted" href="#">Reporting</a></li>
-              <li><a class="text-muted" href="#">Admin Topics</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3" style="padding-left:50px;">
-            <h5 style="color:white;">Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Support</a></li>
-              <li><a class="text-muted" href="#">Videos</a></li>
-              <li><a class="text-muted" href="#">BounceTogether</a></li>
-              <li><a class="text-muted" href="#">Home</a></li>
-              <li><a class="text-muted" href="#">FAQ's</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3" style="padding-left:50px;">
-            <h5 style="color:white;">About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-
-
-
-
-
-
-
-
-
-
-
-
     </div> <!-- /container -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
@@ -321,7 +267,11 @@
         <script src="js/vendor/bootstrap.bundle.js"></script>
         <script src="js/vendor/aos.js"></script>
         <script src="js/main.js"></script>
-
+        <script>
+              $.get("/utility/footer.html", function(data){
+                  $("body").append(data);
+              });
+        </script>
 
     </body>
 </html>
