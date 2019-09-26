@@ -1,6 +1,9 @@
 
 // loads the top navigation menu
 $('#navigation-bar').load('/menu.html');
+$.get("/utility/footer.html", function(data){
+    $("body").append(data);
+});
 
 // creates the right hand menu for quick navigation and adds anchors to the heading
 var headings = $(".article-content h3");
